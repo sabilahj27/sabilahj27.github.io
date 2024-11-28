@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Projects</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="projects.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Portfolio</h1>
+        <button class="nav-toggle">☰</button>
+        <div class="nav">
+            <a href="../index.html">Home</a>
+            <a href="../page/projects.html">Projects</a>
+            <a href="../page/cv.html">CV</a>
+            <a href="../page/experience.html">Experience</a>
+        </div>
+    </div>
+
+    <div class="design-root fade-in">
+        <div class="layout-container">
+            <div class="content-container">
+                <h1>Turning Ideas Into Solutions</h1>
+                <p>Welcome to my projects page! Each project here represents a journey of problem-solving, innovation, 
+                    and continuous learning. From tackling health predictions with machine learning to creating responsive 
+                    web applications, these works showcase my ability to integrate data science, software development, 
+                    and creative thinking.
+                </p>
+                <div id="projects-container">
+                    <h2>Data Science & Analytics</h2>
+                    <div class="projects-grid" id="data-science-grid"></div>
+
+                    <h2>Web Development</h2>
+                    <div class="projects-grid" id="web-dev-grid"></div>
+
+                    <h2>Flutter Mobile App Development</h2>
+                    <div class="projects-grid" id="flutter-grid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <hr class="footer-divider">
+        <h3 class="footer-heading">Let's Connect!</h3>
+        <p>Feel free to reach out for collaborations or inquiries.</p>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-envelope"></i> sabilahj@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +6285212249091</p>
+                <p><i class="fas fa-map-marker-alt"></i> Bandung, Indonesia</p>
+            </div>
+            <div class="social-media">
+                <h3>Social Media Links</h3>
+                <a href="https://www.linkedin.com/in/sabila-hayyinun-jannah-5b4509271/"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/sabilahj27"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <p>&copy; 2024 Sabila Hayyinun. All Rights Reserved.</p>
+    </div>
+    <script type="module" src="projects.js"></script>
+    <div id="project-popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <div class="popup-inner">
+                <img id="popup-image" alt="Project Image" />
+                <div class="popup-text">
+                    <h2 id="popup-title"></h2>
+                    <p id="popup-description"></p>
+                    <button id="popup-url" class="view-button" target="_blank">View Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
