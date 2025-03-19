@@ -137,7 +137,7 @@ a {
 .work h1, h2 {
     color: var(--header-text);
 }
-.work p {
+.work p, li {
     color: var(--plain-text);
 }
 .organization {
@@ -178,7 +178,7 @@ a {
 .organization h1, h2 {
     color: var(--header-text);
 }
-.organization p {
+.organization p, li {
     color: var(--plain-text);
 }
 

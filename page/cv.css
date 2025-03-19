@@ -99,7 +99,7 @@ a {
 }
 .container {
     margin-top: 75px;
-    background-color: var(--white-bg);
+    background-color: var(--pink-bg);
     width: auto;
     padding: 20px;
 }
@@ -119,6 +119,16 @@ a {
 }
 .section {
     margin-bottom: 20px;
+    background: var(--white-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    transition: 0.3s;
+}
+.section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
 }
 .section h2 {
     color: var(--header-text);
@@ -152,9 +162,9 @@ a {
     margin-bottom: 15px !important; 
 }
 .get-my-cv {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     padding: 20px;
-    border: 1px solid #ccc; 
+    /* border: 1px solid #ccc;  */
     background-color: var(--pink-bg); 
     display: flex;
     flex-direction: column;

@@ -1,3 +1,6 @@
+document.getElementById("contact-button").addEventListener("click", function() {
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+});
 document.addEventListener("DOMContentLoaded", function () {
     const navToggle = document.querySelector('.nav-toggle');
     const nav = document.querySelector('.nav');
